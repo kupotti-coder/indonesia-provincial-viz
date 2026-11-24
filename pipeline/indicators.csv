@@ -1,0 +1,25 @@
+name,source,id,turvar,turtahun,group_key,kind,mult,label,note
+poverty_rate_P0,dyn,192,Total|Urban+Rural,Semester 1 (March) > Annually,,int,1,Poverty rate P0 (%),March round; annual where March is absent (2010-11)
+poverty_gap_P1,dyn,503,Urban+Rural|Total,Semester 1 (March) > Annually,,int,1,Poverty gap index P1 (%),
+poverty_severity_P2,dyn,504,Urban+Rural|Total,Semester 1 (March) > Annually,,int,1,Poverty severity index P2 (%),
+gini,dyn,98,Urban+Rural|Total,Semester 1 (March) > Annually,,int,1,Gini ratio,
+poor_people,dyn,185,Total|Urban+Rural,Semester 1 (March) > Annually,,ext,1000,Number of poor people,Published in thousands
+poverty_line,dyn,624,,Annual,,int,1,Poverty line (Rp/capita/month),Province rows of the district table
+poverty_line_urban,dyn,195,Urban Area|Urban,Semester 1 (March) > Annually,,int,1,Poverty line urban (Rp/capita/month),
+poverty_line_rural,dyn,195,Rural Area|Rural,Semester 1 (March) > Annually,,int,1,Poverty line rural (Rp/capita/month),Jakarta has no rural area
+mys,dyn,415,,Annual,,int,1,Mean years of schooling,New method
+eys_male,dyn,457,Male,Annual,,int,1,Expected years of schooling (male),
+eys_female,dyn,457,Female,Annual,,int,1,Expected years of schooling (female),
+life_expectancy,dyn,414,,Annual,,int,1,Life expectancy at birth,New method
+hdi,dyn,494,,Annual,,int,1,Human Development Index,New method
+unemployment_aug,dyn,543,,August,,int,1,Open unemployment rate (%),August round (Sakernas)
+grdp_pc_const,dyn,288,2010 Constant Market Price,Annual,,int,1000,GRDP per capita at 2010 prices (Rp),Published in thousand rupiah
+grdp_total_const,dyn,286,2010 Constant Market Price,Annual,,ext,1e9,GRDP at 2010 prices (Rp),Published in billion rupiah
+improved_water,dyn,854,Urban+Rural|Total,Annual,,int,1,Households with improved drinking water (%),
+improved_sanitation,dyn,834,Urban+Rural|Total,Annual,,int,1,Households with improved sanitation (%),
+pop_supas2015,dyn,1886,Total|Male+Female,Annual,,ext,auto,Population projection (SUPAS 2015),Used for 2015-2019
+pop_sp2020,dyn,2790,TOTAL|Total,Annual,,ext,auto,Population projection (Census 2020),Used for 2020-2025
+census_pop,sta,1267,,,,ext,1,Population census,Used for 2010
+calories_protein,sta,951,,,Calor=mean_calories;Protein=mean_protein,int,1,Daily calorie and protein intake per capita,kcal and grams
+urban_share,sta,1276,,,,int,1,Urban population share (%),Projection table; 5-year steps
+expenditure,sta,945,,,Food=exp_food;Non=exp_nonfood;Total=exp_total,int,1,Monthly expenditure per capita (Rp),Urban+rural combined
